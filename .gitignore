@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Simulation data
+*.pkl
+*.pickle
+*.hdf5
+*.h5
+*.npy
+*.npz
+*.fits
+*.fits.gz
+*.dat
+*.bin
+*.csv
+
+# Local data and results
+data/
+results/
+outputs/
+
+# Logs
+*.log
+slurm-*.out
+
+# Editors/OS
+.vscode/
+
+
