@@ -107,7 +107,7 @@ class DataProcessor:
                                                                                'SubhaloGrNr',
                                                                                'SubhaloLenType'])
                 
-                fofs = il.groupcat.loadHalos(simPath, snapNum, fields = ['GroupFirstSub', 'GroupNsubs', 'Group_M_Crit200', 'Group_R_Crit200'])
+                fofs = il.groupcat.loadHalos(simPath, snapNum, fields = ['GroupFirstSub', 'GroupNsubs', 'Group_M_Crit200', 'Group_R_Crit200', 'GroupPos'])
     
     
                 if save_data:
