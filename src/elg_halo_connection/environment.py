@@ -234,11 +234,7 @@ class EnvironmentCalculator:
             }
         }
 
-        return {simName:
-               {
-                   snapNum
-               }
-               }
+        return res
 
     def compute_all_subhalos(self, subhalo_idxs, ncpu=1):
 
